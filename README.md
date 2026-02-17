@@ -30,7 +30,7 @@ Following inputs can be used as `step.with` keys
 | `srcinfo`                  | Boolean | `false`            | `false`  | Generate new .SRCINFO                                                            |
 | `namcap`                   | Boolean | `true`             | `false`  | Validate PKGBUILD                                                                |
 | `flags`                    | String  | `-cfs --noconfirm` | `false`  | Flags after `makepkg` command. Leave this empty will disable this command.       |
-| `aur`                      | Boolean | `false`            | `false`  | Resolve dependencies using paru                                                  |
+| `aur`                      | Boolean | `false`            | `false`  | Resolve dependencies using yay                                                  |
 | `update_archlinux_keyring` | Boolean | `true`             | `false`  | Update the archlinux keyring                                                     |
 
 ### Examples
